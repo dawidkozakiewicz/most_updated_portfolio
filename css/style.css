@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  margin-top: 105px;
+  font-family: 'Raleway', sans-serif; }
+  body i:hover {
+    cursor: pointer; }
+
+.navbar {
+  transition: top 0.3s; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+#showcase {
+  position: relative;
+  background: url("../img/trianglify.png");
+  min-height: 600px;
+  background-attachment: fixed; }
+
+#newsletter {
+  transform: skewY(-4deg); }
+  #newsletter .container {
+    transform: skewY(4deg); }
+
+#about {
+  background: url("../img/trianglify.png");
+  background-attachment: fixed; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .lenghten {
+  min-height: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: max-height 2s; }
+  #authors .lenghten:hover {
+    max-height: 800px;
+    cursor: context-menu; }
+
+.card {
+  margin-bottom: 50px; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 2.7rem; }
+  .mb-resp {
+    margin-bottom: 1rem; } }
+
+#contact {
+  position: relative; }
+  #contact .forvideo {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    bottom: 0; }
+    #contact .forvideo .myvideo {
+      width: 100%; }
