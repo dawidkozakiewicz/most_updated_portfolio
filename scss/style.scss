@@ -184,7 +184,7 @@ body {
 #authors .img-box:hover img {
   transform: scale(.8);
   border-radius: 15px;
-  border: 2px solid black;
+
   
 
 }
@@ -244,10 +244,17 @@ body {
     height: 100%;
     }
  
-     footer i {
-        font-size: 30px;
-        transition: .5s ease;
-        &:hover {
-          color: gray;
-        }
+     footer {
+       i  {
+         font-size: 30px;
+         color: white;
+         transition: .5s ease;
+      
+       }
+     }
+
+     footer i:hover {
+       color: gray;
+       transform: rotate(720deg);
+
      }

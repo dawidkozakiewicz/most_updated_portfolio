@@ -115,8 +115,7 @@ body {
 
 #authors .img-box:hover img {
   transform: scale(0.8);
-  border-radius: 15px;
-  border: 2px solid black; }
+  border-radius: 15px; }
 
 #authors .img-box:hover .img-overlay {
   opacity: 1; }
@@ -161,6 +160,9 @@ body {
 
 footer i {
   font-size: 30px;
+  color: white;
   transition: .5s ease; }
-  footer i:hover {
-    color: gray; }
+
+footer i:hover {
+  color: gray;
+  transform: rotate(720deg); }
