@@ -149,6 +149,9 @@ body {
 .mycontainer {
   width: 98%;
   margin: 0 auto; }
+  .mycontainer .row {
+    margin-left: 0;
+    margin-right: 0; }
 
 #contact::before {
   content: "";
