@@ -147,7 +147,8 @@ body {
   height: 100%; }
 
 .mycontainer {
-  width: 98%; }
+  width: 98%;
+  margin: 0 auto; }
 
 #contact::before {
   content: "";
@@ -166,3 +167,8 @@ footer i {
 footer i:hover {
   color: gray;
   transform: rotate(720deg); }
+
+#showcase {
+  height: 100vh; }
+  #showcase .primary-overlay {
+    margin-top: 100px; }
