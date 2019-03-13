@@ -175,3 +175,6 @@ footer i:hover {
   height: 100vh; }
   #showcase .primary-overlay {
     margin-top: 100px; }
+
+#accordion .card-header {
+  cursor: pointer; }
