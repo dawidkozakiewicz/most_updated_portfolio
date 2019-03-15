@@ -88,6 +88,16 @@ body {
   }
 }
 
+
+#accordion {
+  .card-header {
+    background-color: #c7d1d7;
+  }
+  .card-body {
+    background-color: #d8e2e8;
+  }
+}
+
 .card {
   margin-bottom: 50px;
 }
@@ -110,6 +120,7 @@ body {
   position: relative;
   height: 100%;
   background: #d8e2e8;
+  padding-top: 115px;
 
   input, textarea {
     outline: none;
@@ -136,6 +147,11 @@ body {
    box-shadow: none;
    outline: none;
    border-radius: 10px;
+   padding: 10px;
+
+   &:hover {
+     cursor: pointer;
+   }
   
  }
 
