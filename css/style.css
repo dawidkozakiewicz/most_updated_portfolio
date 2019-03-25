@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 body {
-  margin-top: 105px;
+  margin-top: 1px;
   font-family: 'Raleway', sans-serif; }
   body i:hover {
     cursor: pointer; }
@@ -163,7 +163,9 @@ footer i:hover {
   transform: rotate(720deg); }
 
 #showcase .primary-overlay {
-  margin-top: 100px; }
+  margin-top: 159px;
+  padding-bottom: 160px;
+  padding-top: 66px; }
 
 #accordion .card-header {
   cursor: pointer; }
