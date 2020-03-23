@@ -12,6 +12,7 @@
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/preloader.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -21,7 +22,11 @@
 </head>
 
 <body href="#home" id="home" data-spy="scroll" data-target="#main-nav" class="bg-dark text-dark">
-
+  <div id="preloader">
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+	</div>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top border-bottom border-secondary py-4" id="main-nav">
     <div class="container">
       <a  class="navbar-brand">
@@ -642,7 +647,7 @@
     </div>
   </footer>
 
-
+  <script src="/preloader.js"></script>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
