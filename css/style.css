@@ -1,107 +1,144 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 body {
   margin-top: 1px;
-  font-family: 'Raleway', sans-serif; }
-  body i:hover {
-    cursor: pointer; }
+  font-family: 'Raleway', sans-serif;
+}
+
+body i:hover {
+  cursor: pointer;
+}
 
 .navbar {
-  transition: top 0.3s; }
-  .navbar .nav-item {
-    font-size: 1.4rem;
-    padding-right: 1.4rem; }
-  .navbar h3 {
-    font-size: 1.2rem; }
+  transition: top 0.3s;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
 
 #showcase {
   position: relative;
   background: url("../img/trianglify.png");
   min-height: 600px;
-  background-attachment: fixed; }
-  #showcase .container {
-    margin-top: -100px; }
+  background-attachment: fixed;
+}
+
+#showcase .container {
+  margin-top: -100px;
+}
 
 #newsletter {
-  transform: skewY(-4deg); }
-  #newsletter .container {
-    transform: skewY(4deg); }
+  transform: skewY(-4deg);
+}
+
+#newsletter .container {
+  transform: skewY(4deg);
+}
 
 #about {
   background: url("../img/trianglify.png");
-  background-attachment: fixed; }
+  background-attachment: fixed;
+}
 
 .info-header {
   width: 50%;
   margin: auto;
-  border-bottom: 1px #ddd solid; }
+  border-bottom: 1px #ddd solid;
+}
 
 #authors {
   padding-top: 100px;
-  padding-bottom: 100px; }
-  #authors img {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: 1.5s ease;
-    backface-visibility: hidden;
-    border-radius: 15px; }
-  #authors .lenghten {
-    min-height: 270px;
-    max-height: 270px;
-    overflow: hidden;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition: max-height 2s; }
-    #authors .lenghten:hover {
-      max-height: 800px;
-      cursor: context-menu; }
+  padding-bottom: 100px;
+}
+
+#authors img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 1.5s ease;
+  backface-visibility: hidden;
+  border-radius: 15px;
+}
+
+#authors .lenghten {
+  min-height: 270px;
+  max-height: 270px;
+  overflow: hidden;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: max-height 2s;
+}
+
+#authors .lenghten:hover {
+  max-height: 800px;
+  cursor: context-menu;
+}
 
 #accordion .card-header {
-  background-color: #c7d1d7; }
+  background-color: #c7d1d7;
+}
 
 #accordion .card-body {
-  background-color: #d8e2e8; }
+  background-color: #d8e2e8;
+}
 
 .card {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+}
 
 @media (max-width: 768px) {
   #showcase {
-    min-height: 500px; }
-    #showcase h1 {
-      font-size: 2.7rem; }
+    min-height: 500px;
+  }
+  #showcase h1 {
+    font-size: 2.7rem;
+  }
   .mb-resp {
-    margin-bottom: 1rem; } }
+    margin-bottom: 1rem;
+  }
+}
 
 #contact {
   position: relative;
   height: 100%;
   background: #d8e2e8;
-  padding-top: 115px; }
-  #contact input, #contact textarea {
-    outline: none;
-    border: none;
-    border-bottom: 3px solid black;
-    margin: 20px;
-    background: #d8e2e8; }
-  #contact .leftimage {
-    background-image: url("../img/buzon-dribbble.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 500px; }
-    #contact .leftimage i {
-      position: relative;
-      left: 50px; }
-  #contact button {
-    width: 50%;
-    margin: 0 auto;
-    box-shadow: none;
-    outline: none;
-    border-radius: 10px;
-    padding: 10px; }
-    #contact button:hover {
-      cursor: pointer; }
+  padding-top: 115px;
+}
+
+#contact input, #contact textarea {
+  outline: none;
+  border: none;
+  border-bottom: 3px solid black;
+  margin: 20px;
+  background: #d8e2e8;
+}
+
+#contact .leftimage {
+  background-image: url("../img/buzon-dribbble.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+#contact .leftimage i {
+  position: relative;
+  left: 50px;
+}
+
+#contact button {
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#contact button:hover {
+  cursor: pointer;
+}
 
 .img-overlay {
   transition: .5s ease;
@@ -113,7 +150,8 @@ body {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   background-color: transparent;
-  width: 100%; }
+  width: 100%;
+}
 
 .img-box {
   width: 100%;
@@ -122,52 +160,68 @@ body {
   overflow: hidden;
   border-radius: 15px;
   transition: 0.5s ease;
-  background-color: white; }
+  background-color: white;
+}
 
 #authors .img-box:hover img {
   transform: scale(0.8);
-  border-radius: 15px; }
+  border-radius: 15px;
+}
 
 #authors .img-box:hover .img-overlay {
-  opacity: 1; }
+  opacity: 1;
+}
 
 #authors .img-box i {
   transition: 0.5s ease;
   font-size: 55px;
   color: #343a40;
-  padding: 20px; }
-  #authors .img-box i:hover {
-    color: black; }
+  padding: 20px;
+}
+
+#authors .img-box i:hover {
+  color: black;
+}
 
 #authors .modal-content {
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: 35%;
-    margin: 1.75rem auto; } }
+    margin: 1.75rem auto;
+  }
+}
 
 .mycontainer {
   width: 98%;
-  margin: 0 auto; }
-  .mycontainer .row {
-    margin-left: 0;
-    margin-right: 0; }
+  margin: 0 auto;
+}
+
+.mycontainer .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 footer i {
   font-size: 30px;
   color: white;
-  transition: .5s ease; }
+  transition: .5s ease;
+}
 
 footer i:hover {
   color: gray;
-  transform: rotate(720deg); }
+  transform: rotate(720deg);
+}
 
 #showcase .primary-overlay {
   margin-top: 159px;
   padding-bottom: 160px;
-  padding-top: 66px; }
+  padding-top: 66px;
+}
 
 #accordion .card-header {
-  cursor: pointer; }
+  cursor: pointer;
+}
