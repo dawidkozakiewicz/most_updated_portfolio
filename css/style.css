@@ -76,11 +76,11 @@ body i:hover {
 }
 
 #accordion .card-header {
-  background-color: #c7d1d7;
+  color: antiquewhite;
 }
 
 #accordion .card-body {
-  background-color: #d8e2e8;
+  background-color: #343a40;
 }
 
 .card {
@@ -225,3 +225,5 @@ footer i:hover {
 #accordion .card-header {
   cursor: pointer;
 }
+
+/* ************************* */
